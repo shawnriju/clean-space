@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    background-color: black;
+    color: #555555;
+    font-family: lato,arial,sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+}
+
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/4.jpg);
+    padding-right: 50%;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text-box{
+    padding-top: 25vh;
+    text-align: center;
+    margin:0;
+    width: auto;
+    height: auto;
+    left: 50%; 
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+}
+
+.btn:link,
+.btn:visited{
+    margin: 0;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    border: 1px solid #21874A;
+    color: #ffffff;
+    
+}
+
+
+
+.btn:active,
+.btn:hover{
+    background-color: #21874A;
+}
+
+
+.btn-map:hover,
+.btn-map:active{
+    
+    border: 1px solid #21874A;
+    color: white;
+    
+}
+
+.btn-contribute:active,
+.btn-contribute:hover{
+    border: 1px solid #21874A;
+    color: white;
+}
+
+.bg-dark{
+	background-color: #21874A !important ;
+}
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 100px;
+}
+.aboutbtn{
+      color: white;
+    background-color: #21874A ;
+    border: none;
+
+}
+/*font-family: 'Gaegu', cursive;*/
+.dropbtn{
+    color: white;
+	background-color: #21874A ;
+	border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content span {
+    color: white;
+    background-color: #21874A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+body{
+	padding-left: 10px;
+}
+
+
+section {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+/*MAP STYLING*/
+
+
+
+.map {
+    width:80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px ;
+    border-radius: 25px;
+}
+#map-container{
+    text-align: center;
+}
+
+
+/*ABOUT PAGE STYLING*/
+#About{
+    text-align: center;
+    font-family: lato,arial,sans-serif;
+    font-size: 25px;
+
+}
+hr{
+    background-color: black;
+}
+.about-content{
+        margin-top: 100px;
+        padding-left: 13%;
+        padding-right: 13%;
+}
+section .about-content{
+    padding-top: 100px;
+    height: auto;
+}
+
+
+/*contact styling*/
+#Contact{
+     text-align: center;
+    font-family: lato,arial,sans-serif;
+    font-size: 25px;
+       margin-top: 100px;
+        padding-left: 13%;
+        padding-right: 13%;
+       
+}
+
+.contact {
+    padding-top: 100px;
+    height: auto;
+    text-align: center;
+    
+}
